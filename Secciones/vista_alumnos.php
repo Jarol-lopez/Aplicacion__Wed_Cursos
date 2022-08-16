@@ -1,4 +1,6 @@
+
 <?PHP INCLUDE('../templates/cabeceras.php'); ?>
+
 Control de Alumnos
 
 
