@@ -2,16 +2,16 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Login</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS v5.2.0-beta1 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/style.css"/>
   </head>
-  <body>
+  <body background="../images/login.jpg ">
 
   <div class="container">
     <div class="row">
@@ -22,7 +22,7 @@
        
         <div class="card">
             <div class="card-header">
-                Inicio de Seccion
+                Inicio de Sesión
             </div>
             <div class="card-body">
                 <div class="mb-3">
@@ -31,20 +31,21 @@
                     class="form-control" 
                     name="USUARIO" 
                     id="USUARIO" 
-                    aria-describedby="helpId" placeholder="USUARIO">
-                  <small id="helpId" class="form-text text-muted">ESCRIBA SU USUARIO</small>
+                    aria-describedby="helpId" placeholder="Usuario">
+                  <small id="helpId" class="form-text text-muted">Escriba su Usuario</small>
                 </div>
                 <div class="mb-3">
                   <label for="" class="form-label">CONTRASEÑA</label>
                   <input type="password"
                     class="form-control" name="" id="" aria-describedby="helpId" placeholder="password">
-                  <small id="helpId" class="form-text text-muted">Escriba su CONTRASEÑA </small>
+                  <small id="helpId" class="form-text text-muted">Escriba su Contraseña </small>
 
                 </div>
                 <form action="../Secciones/vista_alumnos.php" method="post">
-                  <button type="submit" class="btn btn-primary">Iniciar Sesion </button>
-                  
+                  <button type="submit" class="btn btn-primary">Iniciar Sesión </button>
+                  <br>
                   </form>
+                  <br>
                   <form action="../Secciones/inscripcion.php" method="post">
                   <button type="submit" class="btn btn-danger">Registrate </button>
                   

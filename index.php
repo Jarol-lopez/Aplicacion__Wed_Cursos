@@ -30,7 +30,7 @@
                 
                 <li><a href="#" class="active">Inicio</a></li>
                 <form action="Secciones/login.php" method="post">
-                <li><button><a href="#" class="active">Iniciar Seccion</a></button></li>
+                <li><button><a href="#" class="active">Iniciar Sesión</a></button></li>
                 </form>
                 <form action="Secciones/vistas_cusos.php" method="post">
                 <li><button><a href="#" class="active">Cursos</a></button></li>
