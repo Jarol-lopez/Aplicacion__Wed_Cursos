@@ -1,5 +1,5 @@
 
-<?php include('../Secciones/vista_inscripcion.php') ?>
+<?php  ?>
 <!doctype html>
 <html lang="en">
   <head>

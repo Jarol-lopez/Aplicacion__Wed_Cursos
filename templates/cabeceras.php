@@ -15,15 +15,14 @@
   <nav class="navbar navbar-expand navbar-light bg-light">
     
            <div class="nav navbar-nav">
-               <a class="nav-item nav-link active" href="#">Pagina de inicio </a>
+           <a class="nav-item nav-link" href="Informacion.php">Informacion sobre nosotros</a>
                <a class="nav-item nav-link" href="#"></a>
                <a class="nav-item nav-link" href="vista_alumnos.php">Alumnos</a>
                <a class="nav-item nav-link" href="#"></a>
                <a class="nav-item nav-link" href="vistas_cusos.php">Cursos</a>
                <a class="nav-item nav-link" href="#"></a>
-               <a class="nav-item nav-link" href="Informacion.php">Informacion sobre nosotros</a>
-               <a class="nav-item nav-link" href="#"></a>
-               <a class="nav-item nav-link" href="#">Cerrar Sesion</a>
+               
+               <a class="nav-item nav-link" href="cerrar.php">Cerrar Sesion</a>
             
            </div>
        </nav>

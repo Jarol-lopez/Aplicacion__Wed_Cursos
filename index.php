@@ -28,12 +28,12 @@
             </a>
             <ul class="menu">
                 
-                <li><a href="#" class="active">Inicio</a></li>
+                
                 <form action="Secciones/login.php" method="post">
-                <li><button><a href="#" class="active">Iniciar Seccion</a></button></li>
+                <button type="submit" name="accion" value ="Borrar" class="btn btn-danger">Iniciar Seccion</button>
                 </form>
-                <form action="Secciones/vistas_cusos.php" method="post">
-                <li><button><a href="#" class="active">Cursos</a></button></li>
+                <form action="Secciones/cursos_pagina.php" method="post">
+                <button type="submit" name="accion" value ="Borrar" class="btn btn-primary">Cursos</button>
                 </form>
             </ul>
            
