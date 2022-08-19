@@ -23,12 +23,17 @@
   class="form-control" 
   name="id" 
   id="id" 
+  value="<?php echo $id; ?>"
   aria-describedby="helpId" placeholder="ID">
 </div>
 <div class="mb-3">
 <label for="nombre_curso" class="form-label">nombre</label>
 <input type="text"
-  class="form-control" name="nombre_curso" id="nombre_curso" aria-describedby="helpId" placeholder="Nombre del curso">
+  class="form-control" 
+  name="nombre_curso" 
+  id="nombre_curso" 
+  value="<?php echo $nombre_curso; ?>" 
+  aria-describedby="helpId" placeholder="Nombre del curso">
 </div>
 
 <div class="btn-group" role="group" aria-label="">
@@ -61,7 +66,13 @@
           <tr>
                 <td > <?php echo $curso['id'];?> </td>
                 <td><?php echo $curso['nombre_curso'];?></td>
-                <td>SELECCIONAR</td>
+                <td>
+                <form action="" method="post">
+                  <input type="hidden" name="id" id="accion" value="<?php echo $curso["id"];?>" />
+                    <input class="btn btn-info" type="submit" name="accion" value="seleccionar" />
+                </form>
+
+                </td>
             </tr>
             <?php } ?>
         </tbody>

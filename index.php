@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS v5.2.0-beta1 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/style.css"/>
   </head>
   <body>
 
@@ -28,12 +28,13 @@
             </a>
             <ul class="menu">
                 
-                <li><a href="#" class="active">Inicio</a></li>
+                
                 <form action="Secciones/login.php" method="post">
-                <li><button><a href="#" class="active">Iniciar Seccion</a></button></li>
+                <button type="submit" name="accion" value ="Borrar" class="btn btn-danger">Iniciar Sesión</button>
                 </form>
-                <form action="Secciones/vistas_cusos.php" method="post">
-                <li><button><a href="#" class="active">Cursos</a></button></li>
+                &nbsp;
+                <form action="Secciones/cursos_pagina.php" method="post">
+                <button type="submit" name="accion" value ="Borrar" class="btn btn-primary">Cursos</button>
                 </form>
             </ul>
            
