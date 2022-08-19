@@ -7,7 +7,7 @@ class BD{
 
     $opciones[PDO::ATTR_ERRMODE]=PDO::ERRMODE_EXCEPTION;
     self::$instancia=new PDO('mysql:host=localhost;dbname=aplicacion_cursos','root','',$opciones);
-    echo "conectado...";
+    
     }
     return self::$instancia;
 

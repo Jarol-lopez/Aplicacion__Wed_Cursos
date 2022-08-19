@@ -1,5 +1,5 @@
-<?PHP INCLUDE('../templates/cabeceras.php'); ?>
-
-
-
-<?PHP INCLUDE('../templates/pie_pagina.php'); ?>
+<?php 
+session_start(); 
+session_destroy(); 
+header('Location:../index.php');
+?>
